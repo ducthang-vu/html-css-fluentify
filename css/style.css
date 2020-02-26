@@ -70,7 +70,6 @@ h2.big {
 }
 
 .col-3 {
-  float: left;
   width: calc(100% / 3);
   padding: 0 2%;
 }
@@ -211,6 +210,7 @@ h2.big {
 #plan {
   width: 1000px;
   margin: 0 auto;
+  padding: 36px 0;
 }
 
 /* Footer styles here*/
@@ -222,18 +222,24 @@ h2.big {
 }
 
 .fot-left {
-  padding: 25px 0;
+  padding: 25px 0 1px 0
 }
 
 .fot-right {
+  position: relative;
   text-align: right;
+  padding: 25px 0 1px 0;
 }
 
-.fot-right * {
+.fot-col-row * {
   display: inline-block;
+  margin: 0 5px;
+}
+
+.box-sel {
+  border-bottom: 1px solid gray;
 }
 
 #help {
-  display: block;
-  
+  margin: 5px 76px 5px 0;
 }
