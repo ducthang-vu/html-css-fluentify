@@ -216,23 +216,21 @@ h2.big {
 /* FOOTER styles here*/
 footer {
   background: #d3d3d3;
-  padding: 18px 0;
+  padding: 33px 0 18px 0;
 }
 
-.fot-left,
-.fot-right {
-  padding-top: 15px;
-}
 .fot-right {
   text-align: right;
 }
 
 .float-left.w-50.fot-right * {
   display: inline-block;
+  margin-left: 10px;
 }
 
 .box-sel {
   border-bottom: 1px solid gray;
+  font-size: 20px;
 }
 
 #help {
