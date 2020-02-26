@@ -213,20 +213,27 @@ h2.big {
   margin: 0 auto;
 }
 
-/* Help */
-#help {
-  position: fixed;
+/* Footer styles here*/
+#footer-fixed {
+  width: 100%;
   bottom: 0;
-  right: 15%;
-}
-#help a {
-  display: inline-block;
-  padding: 10px;
-  background: #7bbb00;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 5px 5px 0 0;
+  position: fixed;
+  background: #d3d3d3;
 }
 
-/* Structure styles here*/
+.fot-left {
+  padding: 25px 0;
+}
+
+.fot-right {
+  text-align: right;
+}
+
+.fot-right * {
+  display: inline-block;
+}
+
+#help {
+  display: block;
+  
+}
