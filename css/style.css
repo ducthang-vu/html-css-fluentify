@@ -24,7 +24,7 @@ h2.big {
 
 /* Utilities */
 .container {
-  width: 1200px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -210,31 +210,25 @@ h2.big {
 #plan {
   width: 1000px;
   margin: 0 auto;
-  margin-bottom: 100px;
   padding: 36px 0;
 }
 
 /* FOOTER styles here*/
-#footer-fixed {
-  width: 100%;
-  bottom: 0;
-  position: fixed;
+footer {
   background: #d3d3d3;
+  padding: 18px 0;
 }
 
-.fot-left {
-  padding: 25px 0 1px 0
-}
-
+.fot-left,
 .fot-right {
-  position: relative;
+  padding-top: 15px;
+}
+.fot-right {
   text-align: right;
-  padding: 25px 0 1px 0;
 }
 
-.fot-col-row * {
+.float-left.w-50.fot-right * {
   display: inline-block;
-  margin: 0 5px;
 }
 
 .box-sel {
@@ -242,5 +236,7 @@ h2.big {
 }
 
 #help {
-  margin: 5px 76px 5px 0;
+  position: fixed;
+  right: 157px;
+  bottom: 0px;
 }
