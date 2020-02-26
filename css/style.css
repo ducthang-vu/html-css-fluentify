@@ -213,6 +213,14 @@ h2.big {
   padding: 36px 0;
 }
 
+.left-col {
+  padding-right: 20px;
+}
+
+.right-col {
+  padding-left: 20px;
+}
+
 /* FOOTER styles here*/
 footer {
   background: #d3d3d3;
