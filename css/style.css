@@ -210,10 +210,11 @@ h2.big {
 #plan {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 100px;
   padding: 36px 0;
 }
 
-/* Footer styles here*/
+/* FOOTER styles here*/
 #footer-fixed {
   width: 100%;
   bottom: 0;
